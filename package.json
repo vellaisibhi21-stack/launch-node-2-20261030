@@ -1,0 +1,13 @@
+{
+  "name": "launch-node-2-20261030",
+  "version": "1.0.0",
+  "private": true,
+  "description": "LaneSync launch test project",
+  "main": "src/greeting.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
