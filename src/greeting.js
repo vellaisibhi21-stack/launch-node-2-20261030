@@ -2,4 +2,7 @@ function greet(name) {
   if (!name) return 'Hello, world!';
   return `Hello, ${name}!`;
 }
-module.exports = { greet };
+function farewell(name) {
+  return name ? `Goodbye, ${name}!` : 'Goodbye!';
+}
+module.exports = { greet, farewell };
